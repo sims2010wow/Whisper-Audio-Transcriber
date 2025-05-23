@@ -5,7 +5,7 @@
 ## 🔧 Features
 - Auto-detects all `.wav` & `.m4a` files in a folder
 - Skips files that already have transcripts
-- Writes file timestamp and real-time of recording for each line in transcript 
+- Writes elapsed time and real-time of recording for each line in transcript 
 - Outputs human-readable transcripts with 12-hour clock format
 
 ## Before Running
