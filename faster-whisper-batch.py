@@ -9,6 +9,9 @@ folder_path = r"C:\Users\USERNAME\Desktop\faster-whisper-batch" #INSERT YOUR DIR
 model_size = "small"                                            #CAN CHOOSE "tiny" "base" "small" "medium" "large-v1" "large-v2" "large-v3" ADD ".en" for english only
 model = WhisperModel(model_size, device="cpu", compute_type="int8")
 
+#Prevent sleep
+ctypes.windll.kernel32.SetThreadExecutionState(0x80000000 | 0x00000001)
+
 # List all .wav and .m4a files in the folder
 for filename in os.listdir(folder_path):
     if filename.lower().endswith((".wav", ".m4a")):
