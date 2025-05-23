@@ -11,3 +11,8 @@
 ## Before Running
 - ON LINE 8 INSERT YOUR DIRECTORY WITH AUDIO FILES TO TRANSCRIBE 
 - On line 9 you can choose the model size: "tiny" "base" "small" "medium" "large-v1" "large-v2" "large-v3" ADD ".en" for english only. Fast and less accurate --> Slow and more accurate 
+
+
+## License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
